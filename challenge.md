@@ -2,6 +2,20 @@
 
 ## Full Stack Django Engineering Challenge
 
+## Running This Service
+
+The backend service can be started by running `python manage.py runserver`. It will be available at localhost:8000/form/.
+
+The submittend forms can be viewed at http://localhost:8000/form/submissions
+
+### Requirements
+
+This service runs using Python 3.10. You can install all requirements by running `pip install -r requirements.txt`
+
+### Unit Tests
+
+Run the unit tests by running `python -m unittest discover -s test -v`
+
 
 ### Task
 
