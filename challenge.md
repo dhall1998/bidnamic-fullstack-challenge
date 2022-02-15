@@ -4,7 +4,7 @@
 
 ## Running This Service
 
-The backend service can be started by running `python manage.py runserver`. It will be available at localhost:8000/form/.
+The backend service can be started by running `python src/manage.py runserver`. It will be available at localhost:8000/form/.
 
 The submittend forms can be viewed at http://localhost:8000/form/submissions
 

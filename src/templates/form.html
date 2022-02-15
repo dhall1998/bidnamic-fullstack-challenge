@@ -1,5 +1,5 @@
 <form action="/form/" method="post">
     {% csrf_token %}
-    <p>{{ form }}</p>
+    <table>{{ form.as_table }}</table>
     <input type="submit" value="Submit">
 </form>
